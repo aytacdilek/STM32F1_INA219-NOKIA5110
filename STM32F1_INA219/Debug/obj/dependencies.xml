@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\aytac\CooCox /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219 /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\stm_lib\inc /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\devices /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\bsp /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\cmsis /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\cmsis_boot /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\stm_lib">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="14d86cead57">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\devices\stm32f10x_ina219.h" lastModified="14dac17671f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\bsp\open103z_systick.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="14d86ceb14b">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14d86cea969">
+      </source>
+      <source file="..\..\..\devices\stm32f10x_pcd8544.h" lastModified="14d98e336f6">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\bsp\open103z_systick.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="14d86cea970">
+      </source>
+      <source file="..\..\..\devices\font_6x8.h" lastModified="141448f73d0">
+      </source>
+      <source file="..\..\..\devices\stm32f10x_pcd8544.c" lastModified="14d98e357bc">
+         <include file="..\..\..\devices\stm32f10x_pcd8544.h"/>
+         <include file="..\..\..\devices\font_6x8.h"/>
+      </source>
+      <source file="..\..\..\bsp\open103z_systick.h" lastModified="149e0d630f0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\devices\stm32f10x_util.h" lastModified="14da18b2809">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="14d9e8b7555">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14d86cea981">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\bsp\open103z_systick.c" lastModified="149e0d780e0">
+         <include file="..\..\..\bsp\open103z_systick.h"/>
+      </source>
+      <source file="..\..\..\devices\stm32f10x_util.c" lastModified="14da76a843c">
+         <include file="..\..\..\devices\stm32f10x_util.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="14d86cea980">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14d9e8b7557">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="14d86cea963">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="14d86cead5f">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14d86cea964">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="14d86cea958">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14d86ceb148">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="14d86cea972">
+      </source>
+      <source file="..\..\..\main.c" lastModified="14da18b3c47">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\bsp\open103z_systick.h"/>
+         <include file="..\..\..\devices\stm32f10x_ina219.h"/>
+         <include file="..\..\..\devices\stm32f10x_pcd8544.h"/>
+         <include file="..\..\..\devices\stm32f10x_util.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14d86cea95a">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14d86cea971">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\aytac\CooCox /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219 /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\stm_lib\inc /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\bsp /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\devices /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\cmsis /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\cmsis_boot /I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\stm_lib">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14d86cea969">
+      </source>
+      <source file="..\..\..\devices\stm32f10x_pcd8544.h" lastModified="14d98e336f6">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\bsp\open103z_systick.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="14d86cea970">
+      </source>
+      <source file="..\..\..\devices\font_6x8.h" lastModified="141448f73d0">
+      </source>
+      <source file="..\..\..\devices\stm32f10x_pcd8544.c" lastModified="14d98e357bc">
+         <include file="..\..\..\devices\stm32f10x_pcd8544.h"/>
+         <include file="..\..\..\devices\font_6x8.h"/>
+      </source>
+      <source file="..\..\..\bsp\open103z_systick.h" lastModified="149e0d630f0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="14d9e8b7555">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14d86cea981">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\bsp\open103z_systick.c" lastModified="149e0d780e0">
+         <include file="..\..\..\bsp\open103z_systick.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="14d86cea980">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14d9e8b7557">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="14d86cea963">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14d86cea964">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="14d86cea958">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="14d86cea972">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14d86cea95a">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14d86cea971">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.9.2 i686-w64-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103ZE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\aytac\CooCox -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219 -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\stm_lib\inc -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\bsp -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\devices -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\cmsis -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\cmsis_boot -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_INA219\stm_lib">
+      <target file="stm32f10x_ina219.o" lastModified="14dad4d4cd9">
+         <source file="..\..\..\devices\stm32f10x_ina219.c" lastModified="14dad4d4809"/>
+      </target>
+      <target file="stm32f10x_pcd8544.o" lastModified="14dad4d5081">
+         <source file="..\..\..\devices\stm32f10x_pcd8544.c" lastModified="14d98e357bc"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="14dad4d4df2">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14d86cea969"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="14dad4d5294">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14d86cea95a"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14dad4d4d75">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14d86cea971"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="14dad4d51e8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14d9e8b7557"/>
+      </target>
+      <target file="main.o" lastModified="14dad4d4fd6">
+         <source file="..\..\..\main.c" lastModified="14da18b3c47"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14dad4d4e9e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14d86cea981"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14dad4d513d">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14d86cea964"/>
+      </target>
+      <target file="stm32f10x_util.h.o" lastModified="14d9ea7e17f">
+         <source file="..\..\..\devices\stm32f10x_util.h.c" lastModified="14d9ea5f1c2"/>
+      </target>
+      <target file="stm32f10x_util.o" lastModified="14dad4d53db">
+         <source file="..\..\..\devices\stm32f10x_util.c" lastModified="14da76a843c"/>
+      </target>
+      <target file="open103z_systick.o" lastModified="14dad4d5330">
+         <source file="..\..\..\bsp\open103z_systick.c" lastModified="149e0d780e0"/>
+      </target>
+   </processor>
+</history>

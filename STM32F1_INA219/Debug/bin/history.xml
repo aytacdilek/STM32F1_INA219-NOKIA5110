@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=STM32F1_INA219.map -O0 --gc-sections -lm -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F1_INA219 -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F1_INA219/arm-gcc-link.ld -g">
+      <target file="STM32F1_INA219.elf" lastModified="14dad4d563c">
+         <source file="..\obj\stm32f10x_ina219.o" lastModified="14dad4d4cd9"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="14dad4d4d75"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="14dad4d4df2"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14dad4d4e9e"/>
+         <source file="..\obj\main.o" lastModified="14dad4d4fd6"/>
+         <source file="..\obj\stm32f10x_pcd8544.o" lastModified="14dad4d5081"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14dad4d513d"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="14dad4d51e8"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="14dad4d5294"/>
+         <source file="..\obj\open103z_systick.o" lastModified="14dad4d5330"/>
+         <source file="..\obj\stm32f10x_util.o" lastModified="14dad4d53db"/>
+      </target>
+   </processor>
+</history>
