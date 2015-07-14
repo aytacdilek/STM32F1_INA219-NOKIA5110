@@ -2,8 +2,8 @@
  * File				:	stm32f10x_ina219.c
  * Description		:	STM32F10x library for INA219 sensor which reads
  * 						shunt, current and power ratings
- * Datum			:	2015.07.14
- * Version			:	1.0
+ * Datum			:	2015.07.15
+ * Version			:	1.1
  * Author			:	Aytac Dilek
  * email			:	aytacdilek@gmail.com
  * Web				:
@@ -15,11 +15,12 @@
  * Function			:	Read shunt, current and power readings
  * Pin Definitions	:	PB6 => SCL
  * 						PB7 => SDA
- * Note				:	For calculating calibration values i utilized adafruit
+ * Note				:	For calculating calibration values i used adafruit
  * 						driver. Special thanks to adafruit team for sharing. In
  * 						long term, i will change this methods to make more generic
  * 						and task oriented. This is first release, i have tested
  * 						on evaluation board, it works perfectly.
+ * 						This is not the final release, but it works anyway.
  * 						Feel free to send me email, ask whatever you want.
 *******************************************************************************/
 

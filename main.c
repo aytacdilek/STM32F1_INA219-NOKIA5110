@@ -1,5 +1,4 @@
 /*********************************************************************************************************
-*
 * File                	: 	main.c
 * Datum					: 	2015.03.06
 * Version				: 	1.0
@@ -10,11 +9,10 @@
 * CPU					: 	STM32F103ZET6
 * IDE					: 	CooCox CoIDE 1.7.7
 * Compiler				: 	GCC 4.8 2014q2
-* Module				: 	HTU21D and 1602LCD with HD44780 controller
-* Function				: 	Reads temperature and humidity information via HTU21 sensor
-* 							and displays it on 1602 character LCD
+* Module				: 	INA219 and Nokia5110 lcd with PCD8544 controller
+* Function				: 	Reads power ratings information via INA219 sensor
+* 							and displays it on Nokia5110 LCD
 * Copyright				:	GNU General Public License, version 3 (GPL-3.0)
-*
 *********************************************************************************************************/
 
 /* Includes ------------------------------------------------------------------*/

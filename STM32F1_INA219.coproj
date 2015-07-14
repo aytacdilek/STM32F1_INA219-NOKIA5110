@@ -34,7 +34,7 @@
           <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
           <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
         </MemoryAreas>
-        <LocateLinkFile path="../../../../coocox/coide/configuration/programdata/stm32f1_ina219/arm-gcc-link.ld" type="0"/>
+        <LocateLinkFile path="c:/coocox/coide/configuration/programdata/stm32f1_ina219/arm-gcc-link.ld" type="0"/>
       </Link>
       <Output>
         <Option name="OutputFileType" value="0"/>
@@ -87,11 +87,11 @@
     <File name="devices/stm32f10x_util.c" path="devices/stm32f10x_util.c" type="1"/>
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
     <File name="cmsis_boot/startup/startup_stm32f10x_hd.c" path="cmsis_boot/startup/startup_stm32f10x_hd.c" type="1"/>
-    <File name="devices/stm32f10x_ina219.h" path="devices/stm32f10x_ina219.h" type="1"/>
     <File name="bsp/open103z_systick.h" path="bsp/open103z_systick.h" type="1"/>
+    <File name="devices/stm32f10x_ina219.h" path="devices/stm32f10x_ina219.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_spi.c" path="stm_lib/src/stm32f10x_spi.c" type="1"/>
-    <File name="cmsis_boot/stm32f10x.h" path="cmsis_boot/stm32f10x.h" type="1"/>
     <File name="devices/font_6x8.h" path="devices/font_6x8.h" type="1"/>
+    <File name="cmsis_boot/stm32f10x.h" path="cmsis_boot/stm32f10x.h" type="1"/>
     <File name="cmsis_boot/stm32f10x_conf.h" path="cmsis_boot/stm32f10x_conf.h" type="1"/>
     <File name="stm_lib/src" path="" type="2"/>
     <File name="devices/stm32f10x_pcd8544.c" path="devices/stm32f10x_pcd8544.c" type="1"/>
@@ -99,8 +99,8 @@
     <File name="cmsis" path="" type="2"/>
     <File name="stm_lib" path="" type="2"/>
     <File name="stm_lib/inc/stm32f10x_spi.h" path="stm_lib/inc/stm32f10x_spi.h" type="1"/>
-    <File name="devices/stm32f10x_pcd8544.h" path="devices/stm32f10x_pcd8544.h" type="1"/>
     <File name="cmsis_boot/system_stm32f10x.h" path="cmsis_boot/system_stm32f10x.h" type="1"/>
+    <File name="devices/stm32f10x_pcd8544.h" path="devices/stm32f10x_pcd8544.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_rcc.h" path="stm_lib/inc/stm32f10x_rcc.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_i2c.h" path="stm_lib/inc/stm32f10x_i2c.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_i2c.c" path="stm_lib/src/stm32f10x_i2c.c" type="1"/>
